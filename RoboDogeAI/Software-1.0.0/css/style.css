@@ -327,11 +327,12 @@ button {
 }
 
 .more_bt a {
+    font-weight: bold;
     width: 100%;
     float: left;
     font-size: 16px;
     color: #ffffff;
-    background-color: #05141f;
+    background-color: #f2956e;
     text-align: center;
     padding: 10px 0px;
     text-transform: uppercase;
@@ -346,18 +347,19 @@ button {
     margin-left: 15px;
 }
 .contact_bt a {
+    font-weight: bold;
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #000;
-    background-color: #ffffff;
+    color: #fff;
+    background-color: #00d5ff;
     text-align: center;
     padding: 10px 0px;
     text-transform: uppercase;
 }
 .contact_bt a:hover {
-    color: #ffffff;
-    background-color: #05141f;
+    color: #000;
+    background-color: #fff;
 }
 #navbarSupportedContent: { display: none !important; }
 .navbar-expand-lg .navbar-nav .nav-link { display: none; }
