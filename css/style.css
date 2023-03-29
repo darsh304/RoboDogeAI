@@ -198,6 +198,7 @@ button:focus {
 .utility_li {
 	color: beige;
 	list-style: disc !important;
+	font-size: 1.25em;
 }
 ul,
 li,
@@ -367,7 +368,8 @@ button {
 .banner_main {
 	width: 100%;
 	float: left;
-	padding-left: 100px;
+	display: flex;
+	justify-content: space-evenly;
 }
 .banner_taital {
 	width: 100%;
@@ -411,13 +413,25 @@ button {
     .contact_bt{
         margin: 0 !important;
     }
+
+	.road_map_container{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.road_map{
+		width: auto !important;
+		margin: 10px;
+	}
+
 }
 
 .btn_main {
 	width: 100%;
-	float: left;
 	padding-top: 20px;
     display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 .more_bt {
 	width: 170px;
@@ -532,6 +546,7 @@ button {
 	font-weight: bold;
 	padding-top: 70px;
 }
+
 .about_text {
 	width: 100%;
 	float: left;
@@ -643,6 +658,9 @@ button {
 	float: left;
 	padding-bottom: 90px;
 }
+
+
+
 .software_taital {
 	width: 100%;
 	float: left;
@@ -707,7 +725,15 @@ button {
 	width: 100%;
 	float: left;
 }
+
+.road_map_container{
+	display: flex;
+	justify-content: center;
+	gap: 2em;
+}
+
 .road_map {
+	width: 25%;
 	border: 0.5px solid black;
 	padding: 50px 30px;
 	border-radius: 10px;
@@ -716,6 +742,19 @@ button {
 }
 .road_map p {
 	color: wheat;
+}
+
+.road_map ul li{
+	display: block;
+}
+
+.road_map h3{
+	border-bottom: 1px solid #000;
+}
+
+.road_map ul li{
+	padding: 5px;
+	list-style: none;
 }
 
 .works_section:after {
@@ -883,23 +922,27 @@ input.mail_text::placeholder {
 .copyright_section {
 	width: 100%;
 	float: left;
-	background-color: #ffffff;
+	background-color: #1f1f1f;
 	text-align: center;
 	color: #ffffff;
 }
 .copyright_text {
 	width: 100%;
 	float: left;
-	color: #000;
+	color: #fff;
 	text-align: center;
 	font-size: 16px;
 	margin-left: 0px;
 	padding: 10px 0px;
 }
 .copyright_text a {
-	color: #000;
+	color: #fff;
 }
-.copyright_text a:hover {
+.copyright_section a i {
+	color: #fff;
+	padding: 0 0.5em;
+}
+.copyright_section a i:hover {
 	color: #679af5;
 }
 
