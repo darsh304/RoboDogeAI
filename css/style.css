@@ -195,11 +195,15 @@ h6 a {
 button:focus {
 	outline: none;
 }
-.utility_li {
-	color: beige;
-	list-style: disc !important;
-	font-size: 1.25em;
+.tokenomics_bs {
+	display: flex;
 }
+
+.token_data{
+	border: 2px solid;
+	width: 100px;
+}
+
 ul,
 li,
 ol {
@@ -426,7 +430,18 @@ button {
 
 }
 
+li{
+	color: white
+}
+
 .btn_main {
+	width: 100%;
+	padding-top: 20px;
+    display: flex;
+	flex-direction: row;
+	float: left;
+}
+.btn_main_down {
 	width: 100%;
 	padding-top: 20px;
     display: flex;
