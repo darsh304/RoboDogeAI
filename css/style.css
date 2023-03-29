@@ -37,10 +37,10 @@ html {
 
 body {
 	color: #666666;
-	font-size: 14px;
+	font-size: 16px;
 	font-family: Poppins;
 	line-height: 1.80857;
-	font-weight: normal;
+	font-weight: 400;
 	overflow-x: hidden !important;
 }
 
@@ -115,7 +115,7 @@ body {
     }
     
     .nav-links a:hover {
-        color: #1a73e8;
+        color: #00d5ff;
     }
     
   }
@@ -204,6 +204,7 @@ li,
 ol {
 	margin: 0px;
 	padding: 0px;
+	font-size: 1em;
 }
 
 p {
@@ -361,7 +362,7 @@ button {
 }
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-	color: #1b5a8d;
+	color: #fff;
 }
 .banner_main {
 	width: 100%;
@@ -391,7 +392,9 @@ button {
 	width: 40%;
 	float: left;
 	font-size: 16px;
-	color: #171616;
+	line-height: 26px;
+	font-weight: 400;
+	color: #fff;
 	margin-left: 0px;
 }
 
@@ -413,7 +416,7 @@ button {
 .btn_main {
 	width: 100%;
 	float: left;
-	padding-top: 75px;
+	padding-top: 20px;
     display: flex;
 }
 .more_bt {
@@ -908,4 +911,9 @@ input.mail_text::placeholder {
 }
 .margin_top_0 {
 	margin-top: 0px;
+}
+
+
+h2 {
+	font-weight: 300 !important;
 }
