@@ -646,6 +646,10 @@
     }
     .banner_main {
         padding-left: 15px;
+        display: inline !important;
+    }
+    .logo2 {
+        max-width: 100% !important;
     }
     .btn_main {
         padding-top: 0px;

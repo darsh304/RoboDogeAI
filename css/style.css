@@ -44,6 +44,10 @@ body {
 	overflow-x: hidden !important;
 }
 
+body button, body a{
+	position: relative;
+	z-index: 4;
+}
 /* ----- ----- ----- ----- -----  */
 
 @media (max-width: 768px) {
@@ -766,6 +770,9 @@ li{
 .road_map h3{
 	border-bottom: 1px solid #000;
 }
+.road_map h2{
+	font-weight: bolder !important;
+}
 
 .road_map ul li{
 	padding: 5px;
@@ -940,6 +947,8 @@ input.mail_text::placeholder {
 	background-color: #1f1f1f;
 	text-align: center;
 	color: #ffffff;
+	position: relative;
+    z-index: 4;
 }
 .copyright_text {
 	width: 100%;
