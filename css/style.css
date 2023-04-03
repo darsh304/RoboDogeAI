@@ -111,7 +111,7 @@ body button, body a{
     }
     
     .nav-links a {
-        color: #5f6368;
+        color: #fff;
         text-decoration: none;
         font-size: 14px;
         font-weight: 600;
@@ -213,7 +213,7 @@ li,
 ol {
 	margin: 0px;
 	padding: 0px;
-	font-size: 1em;
+	font-size: 20px;
 }
 
 p {
@@ -366,7 +366,7 @@ button {
 	padding-right: 13px;
 	padding-left: 13px;
 	font-size: 18px;
-	color: #2e2d2e;
+	color: #fff;
 	text-transform: uppercase;
 }
 .navbar-light .navbar-nav .nav-link:focus,
@@ -399,10 +399,10 @@ button {
 }
 
 .banner_text {
-	width: 40%;
+	width: 62%;
 	float: left;
-	font-size: 16px;
-	line-height: 26px;
+	font-size: 20px;
+	line-height: 30px;
 	font-weight: 400;
 	color: #fff;
 	margin-left: 0px;
